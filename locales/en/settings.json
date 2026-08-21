@@ -1,0 +1,10 @@
+{
+	"CGWX_ProjectDescription1": {
+		"name": "Merge the prompt words and the pictures",
+		"tooltip": "Merge the prompt words and the pictures"
+  },
+	"CGWX_ProjectDescription2": {
+		"name": "Function 2: Name",
+		"tooltip": "Function 2: Prompt Box"
+  }
+}

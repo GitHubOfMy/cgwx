@@ -1,0 +1,30 @@
+{
+	"CgwxNode": {
+		"display_name": "Fusionner l'image et les instructions @才鬼顽仙cgwx",
+		"description": "Il est possible de charger simultanément une image et un texte de description. @才鬼顽仙cgwx",
+		"inputs": {
+			"text": {
+				"name": "Mot-clé",
+				"tooltip": "Saisissez un mot-clé @才鬼顽仙cgwx"
+			},
+			"image": {
+				"name": "Image",
+				"tooltip": "Ouvrir l'image @才鬼顽仙cgwx"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "Image",
+				"tooltip": "Image sortie @才鬼顽仙cgwx"
+			},
+			"1": {
+				"name": "Masque",
+				"tooltip": "Masque de sortie @才鬼顽仙cgwx"
+			},
+			"2": {
+				"name": "Mot-clé",
+				"tooltip": "Termes de suggestion en sortie @才鬼顽仙cgwx"
+			}
+		}
+	}
+}

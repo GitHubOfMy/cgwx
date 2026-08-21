@@ -1,0 +1,10 @@
+{
+	"CGWX_ProjectDescription1": {
+		"name": "合并提示词及图片",
+		"tooltip": "合并提示词及图片"
+  },
+	"CGWX_ProjectDescription2": {
+		"name": "功能2 名字",
+		"tooltip": "功能2 提示框"
+  }
+}

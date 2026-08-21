@@ -1,0 +1,30 @@
+{
+	"CgwxNode": {
+		"display_name": "画像とプロンプトを統合する @才鬼顽仙cgwx",
+		"description": "画像とプロンプトを同時に読み込むことができます。 @才鬼顽仙cgwx",
+		"inputs": {
+			"text": {
+				"name": "ヒント",
+				"tooltip": "キーワードを入力してください @才鬼顽仙cgwx"
+			},
+			"image": {
+				"name": "画像",
+				"tooltip": "画像を開く @才鬼顽仙cgwx"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "画像",
+				"tooltip": "出力された画像 @才鬼顽仙cgwx"
+			},
+			"1": {
+				"name": "マスク",
+				"tooltip": "出力されたマスク @才鬼顽仙cgwx"
+			},
+			"2": {
+				"name": "ヒント",
+				"tooltip": "出力されるプロンプトの語 @才鬼顽仙cgwx"
+			}
+		}
+	}
+}

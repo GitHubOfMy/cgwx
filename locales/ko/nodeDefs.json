@@ -1,0 +1,30 @@
+{
+	"CgwxNode": {
+		"display_name": "이미지와 키워드를 병합하기 @才鬼顽仙cgwx",
+		"description": "이미지와 키워드를 동시에 로드할 수 있습니다 @才鬼顽仙cgwx",
+		"inputs": {
+			"text": {
+				"name": "힌트 단어",
+				"tooltip": "입력 키워드 @才鬼顽仙cgwx"
+			},
+			"image": {
+				"name": "이미지",
+				"tooltip": "이미지를 열기 @才鬼顽仙cgwx"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "이미지",
+				"tooltip": "출력된 이미지 @才鬼顽仙cgwx"
+			},
+			"1": {
+				"name": "마스크",
+				"tooltip": "출력된 마스크 @才鬼顽仙cgwx"
+			},
+			"2": {
+				"name": "힌트 단어",
+				"tooltip": "출력되는 키워드 @才鬼顽仙cgwx"
+			}
+		}
+	}
+}

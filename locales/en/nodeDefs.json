@@ -1,0 +1,30 @@
+{
+	"CgwxNode": {
+		"display_name": "Load image and prompt @才鬼顽仙cgwx",
+		"description": "Load Images and prompt simultaneously @才鬼顽仙cgwx",
+		"inputs": {
+			"text": {
+				"name": "Prompt",
+				"tooltip": "Input prompt word @才鬼顽仙cgwx"
+			},
+			"image": {
+				"name": "Image",
+				"tooltip": "Open one image @才鬼顽仙cgwx"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "Image",
+				"tooltip": "The output image @才鬼顽仙cgwx"
+			},
+			"1": {
+				"name": "Mask",
+				"tooltip": "The output mask @才鬼顽仙cgwx"
+			},
+			"2": {
+				"name": "Prompt",
+				"tooltip": "The output prompt @才鬼顽仙cgwx"
+			}
+		}
+	}
+}

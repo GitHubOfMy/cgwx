@@ -1,0 +1,30 @@
+{
+	"CgwxNode": {
+		"display_name": "合併圖像與提示詞 @才鬼顽仙cgwx",
+		"description": "可同時載入圖像和提示詞 @才鬼顽仙cgwx",
+		"inputs": {
+			"text": {
+				"name": "提示詞",
+				"tooltip": "輸入提示詞 @才鬼顽仙cgwx"
+			},
+			"image": {
+				"name": "圖片",
+				"tooltip": "打開圖片 @才鬼顽仙cgwx"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "圖片",
+				"tooltip": "輸出的圖片 @才鬼顽仙cgwx"
+			},
+			"1": {
+				"name": "遮罩",
+				"tooltip": "輸出的遮罩 @才鬼顽仙cgwx"
+			},
+			"2": {
+				"name": "提示詞",
+				"tooltip": "輸出的提示詞 @才鬼顽仙cgwx"
+			}
+		}
+	}
+}

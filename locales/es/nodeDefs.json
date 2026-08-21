@@ -1,0 +1,30 @@
+{
+	"CgwxNode": {
+		"display_name": "Combinar imágenes y sugerencias @才鬼顽仙cgwx",
+		"description": "Puede cargar simultáneamente imágenes y palabras clave @才鬼顽仙cgwx",
+		"inputs": {
+			"text": {
+				"name": "palabra clave",
+				"tooltip": "Introduzca una palabra clave @才鬼顽仙cgwx"
+			},
+			"image": {
+				"name": "Imagen",
+				"tooltip": "Abrir la imagen @才鬼顽仙cgwx"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "Imagen",
+				"tooltip": "Imagen de salida @才鬼顽仙cgwx"
+			},
+			"1": {
+				"name": "Máscara",
+				"tooltip": "Máscara de salida @才鬼顽仙cgwx"
+			},
+			"2": {
+				"name": "Palabra Clave",
+				"tooltip": "palabras clave de salida @才鬼顽仙cgwx"
+			}
+		}
+	}
+}
