@@ -26,5 +26,29 @@
 				"tooltip": "输出的提示词 @才鬼顽仙cgwx"
 			}
 		}
+	},
+	"CgwxFaceSwap": {
+		"display_name": "简易换脸 @才鬼顽仙cgwx",
+		"description": "简易换脸 @才鬼顽仙cgwx",
+		"inputs": {
+			"source_image": {
+				"name": "脸图",
+				"tooltip": "想用那张照片的脸？ @才鬼顽仙cgwx"
+			},
+			"target_image": {
+				"name": "身体图",
+				"tooltip": "想用那张照片的身体？ @才鬼顽仙cgwx"
+			},
+			"use_gpu": {
+				"name": "是否使用GPU",
+				"tooltip": "是使用GPU还是使用CPU？ @才鬼顽仙cgwx"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "合成图",
+				"tooltip": "脸图加身体图合成的图片 @才鬼顽仙cgwx"
+			}
+		}
 	}
 }
