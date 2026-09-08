@@ -50,5 +50,49 @@
 				"tooltip": "脸图加身体图合成的图片 @才鬼顽仙cgwx"
 			}
 		}
+	},
+	"CgwxFaceSwapWithCodeFormer": {
+		"display_name": "高清修复换脸 @才鬼顽仙cgwx",
+		"description": "Insightface换脸 + CodeFormer-pip人脸高清修复，可关闭修复，@才鬼顽仙 cgwx",
+		"inputs": {
+			"source_image": {
+				"name": "脸图",
+				"tooltip": "想用那张照片的脸？ @才鬼顽仙cgwx"
+			},
+			"target_image": {
+				"name": "身体图",
+				"tooltip": "想用那张照片的身体？ @才鬼顽仙cgwx"
+			},
+			"use_gpu": {
+				"name": "是否使用GPU",
+				"tooltip": "是使用GPU还是使用CPU？ @才鬼顽仙cgwx"
+			},
+			"enable_codeformer": {
+				"name": "是否开启高清修复",
+				"tooltip": "使用codeformer-pip高清修复 @才鬼顽仙cgwx"
+			},
+			"codeformer_fidelity": {
+				"name": "高清修复强度",
+				"tooltip": "越大保留换脸原始细节，越小修复力度越强 @才鬼顽仙cgwx"
+			},
+			"background_enhance": {
+				"name": "优化背景",
+				"tooltip": "是否高清背景 @才鬼顽仙cgwx"
+			},
+			"face_upsample": {
+				"name": "人脸超分修复",
+				"tooltip": "人脸超分修复 @才鬼顽仙cgwx"
+			},
+			"upscale": {
+				"name": "图像放大倍数",
+				"tooltip": "图像放大倍数 @才鬼顽仙cgwx"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "高清合成图",
+				"tooltip": "脸图加身体图合成的高清图片 @才鬼顽仙cgwx"
+			}
+		}
 	}
 }

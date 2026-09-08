@@ -26,5 +26,73 @@
 				"tooltip": "The output prompt @才鬼顽仙cgwx"
 			}
 		}
+	},
+	"CgwxFaceSwap": {
+		"display_name": "Simple face-swapping @才鬼顽仙cgwx",
+		"description": "Simple face-swapping @才鬼顽仙cgwx",
+		"inputs": {
+			"source_image": {
+				"name": "Facial image",
+				"tooltip": "The face of which photo？ @才鬼顽仙cgwx"
+			},
+			"target_image": {
+				"name": "Body diagram",
+				"tooltip": "The body of which photo？ @才鬼顽仙cgwx"
+			},
+			"use_gpu": {
+				"name": "Use GPU?",
+				"tooltip": "Is it using GPU or CPU？ @才鬼顽仙cgwx"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "Composite image",
+				"tooltip": "An image created by combining a face picture with a body picture @才鬼顽仙cgwx"
+			}
+		}
+	},
+	"CgwxFaceSwapWithCodeFormer": {
+		"display_name": "HD restoration and face-swapping @才鬼顽仙cgwx",
+		"description": "Insightface face-swapping + CodeFormer-pip HD restoration，@才鬼顽仙 cgwx",
+		"inputs": {
+			"source_image": {
+				"name": "Facial image",
+				"tooltip": "The face of which photo？ @才鬼顽仙cgwx"
+			},
+			"target_image": {
+				"name": "Body diagram",
+				"tooltip": "The body of which photo？ @才鬼顽仙cgwx"
+			},
+			"use_gpu": {
+				"name": "Use GPU?",
+				"tooltip": "Is it using GPU or CPU？ @才鬼顽仙cgwx"
+			},
+			"enable_codeformer": {
+				"name": "enable HD restoration?",
+				"tooltip": "Use codeformer-pip for high-definition restoration @才鬼顽仙cgwx"
+			},
+			"codeformer_fidelity": {
+				"name": "HD restoration strength",
+				"tooltip": "The larger the more. The smaller  the stronger. @才鬼顽仙cgwx"
+			},
+			"background_enhance": {
+				"name": "Optimize the background",
+				"tooltip": "Is it in high-definition background? @才鬼顽仙cgwx"
+			},
+			"face_upsample": {
+				"name": "Face SR restoration",
+				"tooltip": "Face super-resolution restoration @才鬼顽仙cgwx"
+			},
+			"upscale": {
+				"name": "Image magnification",
+				"tooltip": "Image magnification @才鬼顽仙cgwx"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "HD composite image",
+				"tooltip": "HD image composed of face picture and body picture @才鬼顽仙cgwx"
+			}
+		}
 	}
 }
